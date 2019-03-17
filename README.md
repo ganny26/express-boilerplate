@@ -59,7 +59,7 @@ docker run -d --name myapp1 -p 3000:80 myapp
 
 ```
 
-### References
+### For further design check below links
 
 - https://medium.com/codebase/structure-of-a-nodejs-api-project-cdecb46ef3f8
 - https://www.terlici.com/2014/08/25/best-practices-express-structure.html
