@@ -1,2 +1,2 @@
-docker build -t $USER_NAME/Redis-Gui
+docker build -t $USER_NAME/redis-gui .
 echo "build success"
