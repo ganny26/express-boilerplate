@@ -8,6 +8,4 @@ function user(req, res) {
   });
 }
 
-module.exports = {
-  user
-};
+export { user };

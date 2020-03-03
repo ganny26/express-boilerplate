@@ -1,5 +1,5 @@
 function handleResponse(req, res, next) {
-  let {statusCode, payload} = req.myobj;
+  let { statusCode, payload } = req.myobj;
   res.status(statusCode).send(payload);
 }
 
@@ -36,8 +36,4 @@ function sample(req, res, next) {
   next();
 }
 
-module.exports = {
-  check,
-  sample,
-  handleResponse
-};
+export { handleResponse, check, sample };

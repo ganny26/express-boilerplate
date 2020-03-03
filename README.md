@@ -1,20 +1,4 @@
-# Express JS Folder Structure
-
-Simple express js boilerplate
-
-### Directory layout
-
-    .
-    ├── bin
-    ├── config
-    ├── controllers
-    ├── middlewares
-    ├── models
-    ├── routes
-    ├── test
-    ├── util
-    ├── .prettierrc
-    └── Dockerfile
+# Express JS with Babel
 
 ## Getting Started
 
@@ -30,10 +14,16 @@ Then you can begin development:
 
 ```bash
 # yarn
-yarn run dev
+yarn dev
 
-# npm
-npm run dev
+```
+
+Production build
+
+```bash
+yarn build
+yarn start
+
 ```
 
 - How to set config variables
@@ -58,6 +48,10 @@ docker build -t myapp .
 docker run -d --name myapp1 -p 3000:80 myapp
 
 ```
+
+## Babel Plugins
+
+https://babeljs.io/docs/en/plugins/
 
 ### For further design check below links
 
